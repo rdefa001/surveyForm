@@ -1,0 +1,168 @@
+* {
+    border-box: box-sizing;
+}
+
+#main {
+    background-image: url(https://i.postimg.cc/JzL1C30N/austin-gardner-474402-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 40px;
+    font-family: Arial, Heveltica, sans-serif;
+    color: #F0FFFF;
+}
+
+#title {
+    color: #F0FFFF;
+    text-align: center;
+}
+
+#overlay {
+    margin: 20px 40px;
+    background: rgba(6, 21, 54, .4);
+    border-radius: 4px;
+}
+
+#description {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#survey-form {
+    text-align: center;
+    font-size: 20px;
+}
+
+#name {
+    width: 300px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #F0FFFF;
+    text-align: center;
+}
+
+#email {
+    width: 300px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #F0FFFF;
+    text-align: center;
+}
+
+#number {
+    width: 300px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #F0FFFF;
+    text-align: center;
+}
+
+.fset {
+    margin: 20px 40px;
+    border-radius: 4px;
+}
+
+#dropdown {
+    height: 35px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#grid-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    text-align: justify;
+}
+
+#ques1 {
+    background: rgba(6, 21, 54, .7);
+    padding: 30px;
+    line-height: 30px;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+#ques2 {
+    background: rgba(6, 21, 54, .7);
+    line-height: 30px;
+    border-radius: 4px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#ques3 {
+    background: rgba(6, 21, 54, .7);
+    line-height: 30px;
+    border-radius: 4px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#submit {
+    width: 300px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #F0FFFF;
+}
+
+#submit:hover {
+    background-color: #F0FFFF;
+}
+
+#t-area {
+    font-size: 16px;
+}
+
+.copyrights {
+    text-align: center;
+}
+
+/* ===========================MEDIA=========================== */
+
+@media screen and (max-width: 600px) {
+
+    #main {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .fset {
+        max-width: 100%;
+        border-radius: 4px;
+    }
+
+    #grid-sec {
+        max-width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+
+    #overlay {
+        width: 100%;
+        margin: 0;
+        background: rgba(6, 21, 54, .4);
+        border-radius: 4px;
+    }
+
+    #survey-form {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #t-area {
+        width: 100%;
+    }
+
+}
